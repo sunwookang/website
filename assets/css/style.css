@@ -1170,13 +1170,13 @@ Author URI: http://bootstrapthemes.co
    }
    .photography{}
    .photography img{
-       box-shadow: -10px -10px 0px 0px #e0ecf0;
+       box-shadow: -10px -10px 0px 0px #FDB2A4;
    }
    .branding{
        margin-top:180px;
    }
    .branding img{
-       box-shadow: 10px 10px 0px 0px #e0ecf0;
+       box-shadow: 10px 10px 0px 0px #FDB2A4;
    }
    
    .client_brand ul li{
