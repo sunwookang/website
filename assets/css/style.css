@@ -1095,9 +1095,14 @@ Author URI: http://bootstrapthemes.co
        font-size:16px;
        font-family: 'gotham_bookregular';
    }
-   .about_content_item h6{
+   .about_content_item h5{
        font-family: 'gotham_bookregular';
    }
+   .about_content_item h6{
+    font-family: 'gotham_bookregular';
+    color: #fc6a42;
+    margin-top: 10px;
+}
    .about_content_item h6 i{
        margin-right: 5px;
    }
@@ -1109,10 +1114,15 @@ Author URI: http://bootstrapthemes.co
        color:#404859;
        font-family: 'gotham_bookregular';
    }
-   .about_content_item ul li a i{
+   .about_content_item ul li a{
        font-size:0.5rem;
        margin-right: 5px;
    }
+   .about_content_item p {
+        line-height: 1.5rem;
+    
+}
+
    .about_left_item img{
        box-shadow: 10px -10px 0px 10px #FDB2A4;
    }
@@ -1125,19 +1135,31 @@ Author URI: http://bootstrapthemes.co
    }
    
    /* Icon when the collapsible content is shown */
-.collapsible:after {
-    font-family: "Glyphicons Halflings";
-    content: "\e114";
-    outline: none;
-}
+    .i:after {
+        font-family: "Glyphicons Halflings";
+        content: "\e114";
+    }
 
-/* Icon when the collapsible content is hidden */
-.collapsible.collapsed:after {
-    content: "\e080";
-    outline: none;
-}
+    /* Icon when the collapsible content is hidden */
+    .i.collapsed:after {
+        content: "\e080";
+    }
 
+    .rotate {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 450px;
+        height: 400px;
+    }
 
+    .highlight {
+        color: #fc6a42;
+    }
+
+    
    /*
    Portfolio Section style
    =====================*/
@@ -1205,7 +1227,7 @@ Author URI: http://bootstrapthemes.co
        transform: rotate(-90deg);
    }
    .head_right h2{
-       color:#CDD4CA;
+       color:#87AEB4;
    }
    .choose_item .head_right{
        top: -100px;
