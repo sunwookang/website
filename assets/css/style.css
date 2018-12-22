@@ -1228,6 +1228,7 @@ Author URI: http://bootstrapthemes.co
    }
    .head_right h2{
        color:#87AEB4;
+       margin-top: 20px;
    }
    .choose_item .head_right{
        top: -100px;
@@ -1267,10 +1268,18 @@ Author URI: http://bootstrapthemes.co
    /*copyright
    ==================*/
    .copyright p i {
-       padding: 0px 10px;
+       padding: 0px 3px;
        color: #667189;
+       font-size: .5rem;
    }
    .copyright p a {
-       padding: 0px 10px;
+       padding: 0px 3px;
        color: #667189;
+       font-size: .5rem;
    }
+   .copyright p {
+    padding: 0px 3px;
+    color: #667189;
+    font-size: .5rem;
+    line-height: 3px;
+}
