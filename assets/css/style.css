@@ -1170,13 +1170,13 @@ Author URI: http://bootstrapthemes.co
    }
    .photography{}
    .photography img{
-       box-shadow: -10px -10px 0px 0px #FDB2A4;
+       box-shadow: -10px -10px 0px 0px #fc6a42;
    }
    .branding{
        margin-top:180px;
    }
    .branding img{
-       box-shadow: 10px 10px 0px 0px #FDB2A4;
+       box-shadow: 10px 10px 0px 0px #fc6a42;
    }
    
    .client_brand ul li{
@@ -1269,17 +1269,17 @@ Author URI: http://bootstrapthemes.co
    ==================*/
    .copyright p i {
        padding: 0px 3px;
-       color: #667189;
+       color: #fc6a42;
        font-size: .5rem;
    }
    .copyright p a {
        padding: 0px 3px;
-       color: #667189;
+       color: #fc6a42;
        font-size: .5rem;
    }
    .copyright p {
     padding: 0px 3px;
-    color: #667189;
+    color: #fc6a42;
     font-size: .5rem;
     line-height: 3px;
 }
