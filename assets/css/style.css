@@ -1100,7 +1100,7 @@ Author URI: http://bootstrapthemes.co
    }
    .about_content_item h6{
     font-family: 'gotham_bookregular';
-    color: #fc6a42;
+    color: #153E5C;
     margin-top: 10px;
 }
    .about_content_item h6 i{
@@ -1206,6 +1206,9 @@ Author URI: http://bootstrapthemes.co
    .list_item_text h5{}
    .list_item_text p{
    
+   }
+   .choose_list_item i{
+       color:#153E5C;
    }
    
    /*
