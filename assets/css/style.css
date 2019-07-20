@@ -1,8 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
+@import 'https://fonts.googleapis.com/css?family=Literata&display=swap';
 
 html, body
 {
     margin: 0px;
+    background: #ffcc3f;
 }
 
 header, footer
@@ -43,17 +45,12 @@ div.container a
     cursor: pointer;
 }
 
-.blah
+.main_menu
 {
     background: #ffcc3f;
 }
 
-.gray
-{
-    background: #9e9e9e;
-}
-
-/* Border X get width  */
+/* menu css */
 div.borderXwidth a:before, div.borderXwidth a:after
 {
     position: absolute;
@@ -81,4 +78,85 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
 {
     opacity: 1;
     width: 100%;
+}
+
+.name_text {
+    color: #7ab4b0;
+}
+
+.main_text {
+    text-align: center;   
+    font-family: Literata;
+}
+
+.main_text h1 {
+    font-size: 70px;
+    margin-top: 8%;
+    margin-bottom: 0%;
+}
+
+.main_text h2 {
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.box {
+    font-size: 25px;
+    transform: translateX(-100px);
+    position: relative;
+}
+
+.word {
+    display: inline-block;
+}
+
+.word span {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    animation: animate 15s linear infinite;
+    opacity: 0;
+}
+
+/* animation css */
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    2% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    18% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    20% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.word span:nth-child(1) {
+    animation-delay: 0s;
+}
+.word span:nth-child(2) {
+    animation-delay: 3s;
+}
+.word span:nth-child(3) {
+    animation-delay: 6s;
+}
+.word span:nth-child(4) {
+    animation-delay: 9s;
+}
+.word span:nth-child(5) {
+    animation-delay: 12s;
 }
