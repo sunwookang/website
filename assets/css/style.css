@@ -50,42 +50,15 @@ div.container a
     background: #ffcc3f;
 }
 
-/* menu css */
-div.borderXwidth a:before, div.borderXwidth a:after
-{
-    position: absolute;
-    opacity: 0;
-    width: 0%;
-    height: 2px;
-    content: '';
-    background: #FFF;
-    transition: all 0.3s;
-}
+/* ***** HOME PAGE ***** */
 
-div.borderXwidth a:before
-{
-    left: 0px;
-    top: 0px;
-}
-
-div.borderXwidth a:after
-{
-    right: 0px;
-    bottom: 0px;
-}
-
-div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
-{
-    opacity: 1;
-    width: 100%;
-}
-
+/* Hey my name is Sunwoo but you can call me Sunny */
 .name_text {
     color: #7ab4b0;
 }
 
 .main_text {
-    text-align: center;   
+    text-align: left;   
     font-family: Literata;
 }
 
@@ -149,14 +122,48 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     animation-delay: 0s;
 }
 .word span:nth-child(2) {
+    transform: translateX(15px);
     animation-delay: 3s;
 }
 .word span:nth-child(3) {
+    transform: translateX(40px);
     animation-delay: 6s;
 }
 .word span:nth-child(4) {
     animation-delay: 9s;
+    transform: translateX(20px);
 }
 .word span:nth-child(5) {
     animation-delay: 12s;
+    transform: translateX(20px);
+}
+
+/* menu css */
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
 }
